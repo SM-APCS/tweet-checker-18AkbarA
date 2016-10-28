@@ -1,2 +1,2 @@
 # TweetTester
-Create a tweet checker that counts the length of a tweet. Returns character count.
+Awesome program by *me*. I mean, no one else would make such a <i><b>SICK</b></i> project...
