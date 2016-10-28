@@ -9,7 +9,7 @@ import java.util.Scanner;
 import java.lang.Math; 
 /**
  * @class  AP CSA
- * @author INSERT YOUR NAME HERE
+ * @author Abs. the bro.
  */
 public class TweetTester {
 
@@ -19,8 +19,16 @@ public class TweetTester {
     public static void main(String[] args) {
         
         Scanner scan = new Scanner (System.in);
-         String tweet;
-         
+        System.out.print("Enter your tweet: ");
+         String tweet = scan.nextLine();
+         int tweetlength = tweet.length();
+         System.out.println("Character count: " + tweetlength);
+         if (tweetlength > 140){
+        	 System.out.println("Too many characters!");
+         }
+         else{
+        	 System.out.println("Meets character requirement");
+         }
     }
     
 }
